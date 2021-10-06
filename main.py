@@ -10,6 +10,7 @@ ABILITY_LINK = "https://www.mobafire.com/league-of-legends/abilities"
 CHAMPION_LINK = "https://www.mobafire.com/league-of-legends/champions"
 FILE_NAME = "abilities.txt"
 ANKI_COLLECTION_PATH = "C:\\Users\\Macklinrw\\AppData\\Roaming\\Anki2\\User 1\\collection.media\\"
+CHROMEDRIVER_PATH = 'C:/Users/Macklinrw/Desktop/chromedriver'
 
 
 class Ability:
@@ -25,7 +26,7 @@ class Ability:
 
 
 def main():
-    browser = webdriver.Chrome('C:/Users/Macklinrw/Desktop/chromedriver')
+    browser = webdriver.Chrome(CHROMEDRIVER_PATH)
     browser.get(CHAMPION_LINK)
 
     champions_by_pick = []
