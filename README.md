@@ -34,7 +34,7 @@ It's easy to add questions, just go to the end of the file and copy/edit the for
 Open Anki and go to `File > Import` then select the text file with the
 exported abilities.
 
-Change the deck in the top left of the import screen, either select an existing
+Change the deck in the top right of the import screen, either select an existing
 one or create a new one.
 
 You're ready to go! You can start memorizing abilites now.
