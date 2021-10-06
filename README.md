@@ -4,7 +4,7 @@ as well as turning those abilities into flashcards in a file that can be importe
 Anki.
 
 # Setup
-1. Find your Anki collection directory and link paste it into `ANKI_COLLECTION_PATH` in main.py.
+1. Find your Anki collection directory and paste it into `ANKI_COLLECTION_PATH` in main.py.
 2. Install chromedriver and paste the path into `CHROMEDRIVER_PATH`.
 3. (optional) Change the filename in the variable `FILENAME`.
 
